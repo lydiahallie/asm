@@ -5,6 +5,7 @@ ser = serial.Serial()
 ser.baudrate = 115200
 ser.bytesize=serial.SEVENBITS
 ser.parity=serial.PARITY_EVEN
+ser.stopbits = serial.STOPBITS_ONE
 ser.xonxoff=0
 ser.rtscts=0
 ser.timeout=20
